@@ -1,88 +1,114 @@
+/* Estilos generales del cuerpo de la página */
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Poppins', sans-serif; /* Se establece la fuente Poppins para todo el texto */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+    color: #333; /* Color de texto oscuro para mejor contraste */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la lectura */
 }
-header {
-    background: linear-gradient(135deg, #333, #555);
-    color: white;
-    text-align: center;
-    padding: 3rem 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.header-container {
-    max-width: 900px;
-    margin: auto;
-}
-.profile-img {
-    width: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
-    margin-bottom: 15px;
-}
-h1 {
-    margin: 10px 0 5px;
-    font-size: 2.5rem;
-}
-p {
-    font-size: 1.2rem;
-    opacity: 0.9;
-}
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    margin-top: 15px;
-    background: #ddc192;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.3s ease;
 
+/* Estilos para la cabecera */
+header {
+    background: linear-gradient(135deg, #333, #555); /* Fondo con un degradado oscuro */
+    color: white; /* Texto en color blanco para contraste */
+    text-align: center; /* Centra el contenido */
+    padding: 3rem 0; /* Espaciado interno superior e inferior */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil debajo del header */
 }
+
+/* Contenedor dentro del header para ajustar el ancho */
+.header-container {
+    max-width: 900px; /* Limita el ancho máximo */
+    margin: auto; /* Centra el contenedor */
+}
+
+/* Estilos para la imagen de perfil */
+.profile-img {
+    width: 150px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 3px solid white; /* Borde blanco alrededor de la imagen */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+
+/* Estilos para el título principal */
+h1 {
+    margin: 10px 0 5px; /* Márgenes superiores e inferiores */
+    font-size: 2.5rem; /* Tamaño grande para el título */
+}
+
+/* Estilos generales para los párrafos */
+p {
+    font-size: 1.2rem; /* Tamaño de fuente mayor al predeterminado */
+    opacity: 0.9; /* Hace el texto un poco más suave */
+}
+
+/* Estilos para botones */
+.btn {
+    display: inline-block; /* Permite que el botón respete el tamaño del contenido */
+    padding: 12px 25px; /* Espaciado interno */
+    margin-top: 15px; /* Espaciado superior */
+    background: #e1a846; /* Color de fondo amarillo dorado */
+    color: black; /* Texto en color negro */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+/* Efecto hover para el botón */
 .btn:hover {
-    background: #eac694;
+    background: #81500c; /* Cambio de color al pasar el mouse */
 }
+
+/* Estilos para las secciones */
 section {
-    max-width: 900px;
-    margin: 3rem auto;
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Limita el ancho */
+    margin: 3rem auto; /* Centra la sección y agrega margen superior e inferior */
+    background: white; /* Fondo blanco */
+    padding: 25px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
 }
+
+/* Estilos para el pie de página */
 footer {
-    text-align: center;
-    padding: 1.5rem;
-    background: #333;
-    color: white;
-    margin-top: 20px;
+    text-align: center; /* Centra el texto */
+    padding: 1.5rem; /* Espaciado interno */
+    background: #333; /* Fondo oscuro */
+    color: white; /* Texto en blanco */
+    margin-top: 20px; /* Margen superior */
 }
+
+/* Estilos para la navegación */
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0; /* Elimina el padding */
+    display: flex; /* Usa flexbox para alinear elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espaciado entre elementos */
 }
+
+/* Estilos para los elementos de la lista */
 nav ul li {
-    display: inline;
+    display: inline; /* Los elementos se muestran en línea */
 }
+
+/* Estilos para los enlaces de navegación */
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Color oscuro para el texto */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    display: flex; /* Usa flexbox para centrar contenido */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espaciado entre el icono y el texto */
+    padding: 12px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease-in-out; /* Suaviza las transiciones */
 }
+
+/* Efecto hover en los enlaces de navegación */
 nav ul li a:hover {
-    background: #ddc192;
-    color: black;
+    background: #ddc192; /* Cambio de color de fondo */
+    color: black; /* Cambio de color de texto */
 }
