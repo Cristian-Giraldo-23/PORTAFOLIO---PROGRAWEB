@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(135deg, #333, #555);
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header-container {
+    max-width: 900px;
+    margin: auto;
+}
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    background: #ddc192;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+}
+.btn:hover {
+    background: #eac694;
+}
+section {
+    max-width: 900px;
+    margin: 3rem auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    background: #ddc192;
+    color: black;
+}
